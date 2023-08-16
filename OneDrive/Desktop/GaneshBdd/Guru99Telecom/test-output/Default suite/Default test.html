@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Aug 15 22:47:14 IST 2023</td>
+<td>Started on:</td><td>Thu Aug 17 00:58:24 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>29 seconds (29279 ms)</td>
+<tr><td>Total time:</td><td>12 seconds (12837 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,30 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: TestRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Add Tariff Plan to Customer", "Test Guru99 Telecom Application"</td>
+<td><div><pre>org.junit.ComparisonFailure: expected:&lt;Guru99 [Telecom]&gt; but was:&lt;Guru99 [Add Tariff Plan to Customer]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at StepDefination.AddTariffPlanToCustomerPageStepDef.user_is_on_home_page_then_click_on_add_tariff_to_customer_plan_link(AddTariffPlanToCustomerPageStepDef.java:19)
+	at ✽.User is on Home page then click on add tariff to customer plan link(file:///E:/GitProjects/guru99bdd/OneDrive/Desktop/GaneshBdd/Guru99Telecom/AllFeatureFile/TC_001_AddCustomer.feature:19)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1271323139", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1271323139'><pre>org.junit.ComparisonFailure: expected:&lt;Guru99 [Telecom]&gt; but was:&lt;Guru99 [Add Tariff Plan to Customer]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at StepDefination.AddTariffPlanToCustomerPageStepDef.user_is_on_home_page_then_click_on_add_tariff_to_customer_plan_link(AddTariffPlanToCustomerPageStepDef.java:19)
+	at ✽.User is on Home page then click on add tariff to customer plan link(file:///E:/GitProjects/guru99bdd/OneDrive/Desktop/GaneshBdd/Guru99Telecom/AllFeatureFile/TC_001_AddCustomer.feature:19)
+</pre></div></td>
+<td>0</td>
+<td>TestRunner.RunnerClass@7ef82753</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -77,13 +101,13 @@ function toggleAllBoxes() {
 <tr>
 <td title='TestRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: TestRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Add Tariff plan page fuctionality", "Test Guru99 Telecom Application"</td>
 <td></td>
-<td>6</td>
-<td>TestRunner.RunnerClass@738dc9b</td></tr>
+<td>2</td>
+<td>TestRunner.RunnerClass@7ef82753</td></tr>
 <tr>
 <td title='TestRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: TestRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Add Customer Page Fuctionality", "Test Guru99 Telecom Application"</td>
 <td></td>
-<td>22</td>
-<td>TestRunner.RunnerClass@738dc9b</td></tr>
+<td>9</td>
+<td>TestRunner.RunnerClass@7ef82753</td></tr>
 </table><p>
 </body>
 </html>

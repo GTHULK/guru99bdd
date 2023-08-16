@@ -14,3 +14,8 @@ Feature: Test Guru99 Telecom Application
     And user enter free sms pack and local per minutes charges and international per minutes charges and sms per charges
     And click on submit button
     And click on home button
+    
+    Scenario: Test Add Tariff Plan to Customer
+    When User is on Home page then click on add tariff to customer plan link
+    Then user enter customer id 
+    And clicked on submit button
